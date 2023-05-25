@@ -1,0 +1,54 @@
+.header {
+  font-size: 35px;
+  font-weight: 500;
+  color: black;
+}
+.dashboard {
+  display: flex;
+  flex-direction: row;
+}
+.requestModal {
+  height: 200px;
+  width: 400px;
+  background-color: white;
+}
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dash-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.sidebar {
+  height: 100vh;
+  width: 200px;
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+.email-head {
+  height: 37px;
+  width: 220px;
+  text-align: center;
+}
+.email {
+  height: 40px;
+  width: 250px;
+  /* border: 1px solid;
+  border-radius: 20px; */
+}
+.upload {
+  height: 40px;
+  width: 90px;
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+  padding: 2px;
+  align-items: center;
+  cursor: pointer;
+}
